@@ -1,5 +1,5 @@
 <footer>
-    <div class="left-side">
+    <div class="footer-left-side">
         <div class="logo">
             <img src="images/logo-no-back.png" alt="logo">
         </div>
@@ -14,7 +14,7 @@
             <P>Email: info@cantorcollege.ac.uk</p>
         </div>
     </div>
-    <div class="right-side">
+    <div class="footer-right-side">
         <div class="footer-links">
             <h3>Studying and courses</h3>
             <nav>

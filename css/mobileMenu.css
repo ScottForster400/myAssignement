@@ -76,25 +76,23 @@ footer{
     flex-direction: row;
     font-size: 12px;
 }
-.right-side{
-    flex: 50%;
-}
-.left-side{
+.footer-left-side{
     display: flex;
     flex-direction: column;
     flex: 50%;
 }
-.left-side .logo{
+.footer-left-side .logo{
     padding: 10px;
     padding-left: 0px;
 }
-.left-side .logo img{
+.footer-left-side .logo img{
     filter: grayscale(1);
 }
-.right-side{
+.footer-right-side{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    flex:50%;
 }
 .footer-links{
     padding: 10px;
