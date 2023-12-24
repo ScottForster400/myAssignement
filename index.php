@@ -19,8 +19,14 @@
                     <h1>Welcome To Cantor</h1>
                     <h2>Giving Studetns the education they need since 1989</h2>
                 
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, laboriosam quam ducimus eius vero obcaecati facere impedit 
-                    dolores rerum aliquam sapiente accusamus quo tempora. Commodi illum non nesciunt dolor eligendi.</p>
+                    <p>Cantor College was established in 1989 to specialize in Computing and Design.   At Cantor College, we want to give students
+                     the education they need to achieve their career aims, leaving them equipped with the knowledge, 
+                     skills and experience to succeed. Cantor College gives you the opportunities that can give you the edge when you 
+                     enter the world of work, through our teaching and our links to some of the world's leading researchers and employers. 
+                     Our students have gone on to successful careers in a wide range of industries across the globe. 
+                      Whatever your ambitions, our learning and support can help to get the most out of your time with Cantor College, 
+                      both as a student and in your future career.</p>
+                    
                     <div class="link-images">
                         <div class="link-image">
                             <a href="google.com"><img src="images/cantor-gallery.jpg" alt="courses"></a>
@@ -40,12 +46,15 @@
                 </div>
                 <div class="right-side-main">
                     <div id="image-scroller">
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque doloribus quas sit rerum ipsam deleniti non! Commodi consectet
-                            ur, cumque neque necessitatibus id totam rem, similique, debitis suscipit reiciendis adipisci deserunt?</p>
-                    </div>
-                    <div id="map">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2380.120423524792!2d-1.4703501234427925!3d53.376894772298165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48798338bc5a1d13%3A0xad74824d1242efa8!2sCantor%20College!5e0!3m2!1sen!2sie!4v1703096922625!5m2!1sen!2sie"></iframe>
+                        <div class="image-scroller-container">
+                        <img id="slider-img-1" src="images/cantor-4.jpg" alt="cantor-seating">
+                        </div>
 
+                        <a class="previous"></a>
+                        <a class="next"></a>
+                    </div>
+                    <div id="map"><!--  used this to help work out how to add map https://blog.hubspot.com/website/how-to-embed-google-map-in-html#:~:text=Embedding%20a%20static%20Google%20map,the%20code%20into%20your%20HTML.*/ -->
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2380.120423524792!2d-1.4703501234427925!3d53.376894772298165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48798338bc5a1d13%3A0xad74824d1242efa8!2sCantor%20College!5e0!3m2!1sen!2sie!4v1703096922625!5m2!1sen!2sie"></iframe>
                     </div>
                 </div>
                 

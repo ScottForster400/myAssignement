@@ -1,4 +1,8 @@
-
+body{
+    display: flex;
+    margin: 0px;
+    height: auto;
+}
 nav menu{
     display: flex;
     flex-direction: row;
@@ -10,9 +14,12 @@ nav menu a:hover{
     font-size:20px;
 }
 main{
+    height: auto;
     padding: 0px;
+    display: flex;
 }
 section{
+    height: auto;
     display: flex;
     flex-direction: row;
 }
@@ -43,17 +50,35 @@ section{
 #image-scroller{
     flex: 50%;
     border-bottom: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex:0 1 0
+}
+.image-scroller-container{
+    max-width: 75%;
+    padding: 20px;
+}
+.image-scroller-container img{
+    height: 100%;
+    width: 100%;
 }
 #map{
     flex:50%;
-    flex-shrink: 0;
-    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 100%;
+    flex: 1 0 0
 }
 iframe{
-     margin-top: 12.5%; /*need this to centre as margin auto not working on frame */
-    margin-bottom: 12.5%;
     height: 75%;
     border: 3px black solid;
+    
+}
+footer{
+    display: flex;
+    flex:1 1 0;
 }
 footer nav,footer p{
     font-size: 14px;
