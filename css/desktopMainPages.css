@@ -20,7 +20,7 @@ section{
     flex:15%;
     background-color: #DED8CD;
     border-right: 2px solid black;
-    text-align: left;
+    justify-content: center;
 }
 .sidebar nav menu{
     display: flex;
@@ -29,10 +29,12 @@ section{
 }
 .sidebar nav menu a{
     font-size: 16px;
-    padding: 30px;
     color: black;
-    padding-left:0px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     text-decoration: none;
+    text-align: center;
+    
 }
 .sidebar nav menu a:hover{
     text-decoration: underline black;
@@ -44,10 +46,12 @@ section{
     flex-direction: column;
     padding: 50px;
 }
+.info ul{
+    text-align: left;
+}
 .link-images{
     display: flex;
     flex-direction: row;
-    padding: 0px;
 }
 
 footer nav,footer p{
