@@ -1,0 +1,58 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+nav menu a:hover{
+    text-decoration: underline #f2a903;
+}
+main{
+    height: auto;
+    padding: 0px;
+    display: flex;
+}
+section{
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+.sidebar {
+    display:flex;
+    flex:15%;
+    background-color: #DED8CD;
+    border-right: 2px solid black;
+    text-align: left;
+}
+.sidebar nav menu{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+.sidebar nav menu a{
+    font-size: 16px;
+    padding: 30px;
+    color: black;
+    padding-left:0px;
+    text-decoration: none;
+}
+.sidebar nav menu a:hover{
+    text-decoration: underline black;
+}
+.info{
+    font-size: 16px;
+    display: flex;
+    flex:85%;
+    flex-direction: column;
+    padding: 50px;
+}
+.link-images{
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+}
+
+footer nav,footer p{
+    font-size: 14px;
+}
+.footer-links{
+    flex:33%;
+}

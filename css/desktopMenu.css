@@ -1,17 +1,8 @@
 body{
     display: flex;
-    margin: 0px;
-    height: auto;
-}
-nav menu{
-    display: flex;
-    flex-direction: row;
-    justify-content:space-evenly;
-    padding: 0px;
-    margin: 0px;
 }
 nav menu a:hover{
-    font-size:20px;
+    text-decoration: underline #f2a903;
 }
 main{
     height: auto;
@@ -76,10 +67,7 @@ iframe{
     border: 3px black solid;
     
 }
-footer{
-    display: flex;
-    flex:1 1 0;
-}
+
 footer nav,footer p{
     font-size: 14px;
 }
