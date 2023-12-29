@@ -1,0 +1,35 @@
+.logo{
+    width: 20%;
+    max-width: 70px;
+    max-height: auto;
+    display: flex;
+    flex:0 1 0;
+    justify-content: space-between;
+    
+}
+
+.logo img{
+    height: 100%;
+    width: 100%;
+}
+header{
+    background-color: #533f0e;
+}
+header nav menu{
+    display: flex;
+    padding: 0px;
+    justify-content:space-evenly;
+    padding: 2.5px;
+    font-size: 13px;
+
+}
+header nav menu a{
+    text-align: center;
+    color: #f2a903;
+    text-decoration: none;
+    position: relative;
+    padding: 2.5px;
+}
+nav menu a:hover{
+    text-decoration: underline #f2a903;
+}

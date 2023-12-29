@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <title>Cantor College||Menu</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Cantor College||Menu</title>
     <link rel="stylesheet" href="css/mobileMenu.css">
-    <link rel="stylesheet" href="css/desktopMenu.css" media="only screen and (min-width : 720px)"> 
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/mobileFooter.css">
+    <link rel="stylesheet" href="css/desktopMenu.css" media="only screen and (min-width : 720px)">
+    <link rel="stylesheet" href="css/desktopFooter.css" media="only screen and (min-width : 720px)">
 </head>
 <body>
     <div class="container">
@@ -27,6 +30,7 @@
                       Whatever your ambitions, our learning and support can help to get the most out of your time with Cantor College, 
                       both as a student and in your future career.</p>
                     
+                    <h2 class="underline">Suggested Pages</h2>
                     <div class="link-images">
                         <div class="link-image">
                             <a href="google.com"><img src="images/cantor-gallery.jpg" alt="courses"></a>

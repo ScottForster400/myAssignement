@@ -1,0 +1,39 @@
+footer{
+    display: flex;
+    background-color: #333;
+    color:white;
+    flex-direction: row;
+    font-size: 12px;
+    flex:1 1 auto;
+}
+.footer-left-side{
+    display: flex;
+    flex-direction: column;
+    flex: 50%;
+}
+.footer-left-side .logo{
+    padding: 10px;
+    padding-left: 0px;
+}
+.footer-left-side .logo img{
+    filter: grayscale(1);
+}
+.footer-right-side{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex:50%;
+}
+.footer-links{
+    padding: 10px;
+    padding-bottom: 0px;
+}
+.footer-links nav menu{
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+}
+.footer-links a{
+    color: white;
+    text-decoration: none;
+}

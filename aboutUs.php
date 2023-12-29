@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Cantor College||About Us</title>
-    <link rel="stylesheet" href="css/mobileMainPages.css">
-    <link rel="stylesheet" href="css/desktopMainPages.css" media="only screen and (min-width : 720px)">
+    <?php
+        include("includes/head-inc.php")
+    ?>
 </head>
 <body>
     <div class="container">
@@ -48,6 +47,7 @@
                         <p>Fax: (01321) 2340 236</p>
                         <P>Email: info@cantorcollege.ac.uk</p>
                     </div>
+                    <h2 >Suggested Pages</h2>
                     <div class="link-images">
                             <div class="link-image">
                                 <a href="google.com"><img src="images/cantor-gallery.jpg" alt="courses"></a>

@@ -1,0 +1,6 @@
+footer nav,footer p{
+    font-size: 14px;
+}
+.footer-links{
+    flex:33%;
+}
