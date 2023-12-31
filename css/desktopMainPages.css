@@ -11,6 +11,7 @@ section{
     height: auto;
     display: flex;
     flex-direction: row;
+    min-width: 100%;
 }
 .sidebar {
     display:flex;
@@ -60,6 +61,21 @@ section{
 }
 .info ul{
     text-align: left;
+}
+.course{
+    padding: 20px;
+    text-align: left;
+    border-bottom:1px grey solid;
+    padding-left: 0px;
+}
+.course-info{
+    display: flex;
+    flex-direction: row;
+}
+.course-info p{
+    display: flex;
+    flex: 33%;
+    font-size: 14px;
 }
 .text-left{
     text-align: left;

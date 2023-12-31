@@ -60,7 +60,7 @@
                     facilitated through our links with commercial clients, cultural institutions, businesses and organisations.
                     </p>
                     <div class="centre">
-                        <button>View Full <br>Course List</button>
+                        <a href="courseList.php"><button>View Full <br>Course List</button></a>
                     </div>
                     <h2 >Suggested Pages</h2>
                     <div class="link-images">
