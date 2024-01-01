@@ -16,8 +16,8 @@
                 <div class="sidebar">
                     <nav> 
                         <menu>
-                            <a href="">Facilities</a>
-                            <a href="">Facilities List</a>
+                            <a href="" class="scroll-to">Facilities</a>
+                            <a href="" class="scroll-to">Facilities List</a>
                         </menu>
                     </nav>
                 </div>
@@ -34,7 +34,7 @@
                     </p>
 
                     <h1>Facilities List</h1>
-                    <ul>
+                    <ul class="border-bottom">
                         <li> wi-fi technology</li>
                         <li>pool teaching rooms, including classrooms to teach from 25 - 80 students</li>
                         <li>specialist faculty facilities</li>

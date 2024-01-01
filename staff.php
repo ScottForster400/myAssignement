@@ -17,16 +17,16 @@
                     <nav> 
                         <menu>
                             <div class="reference-in-section">
-                                    <a href="">Staff Information</a>
+                                    <a href="" class="scroll-to">Staff Information</a>
                                     <ul>
-                                        <li><a href="">- News</a></li>
-                                        <li><a href="">- Academic Registry</a></li>
-                                        <li><a href="">- Catering Services</a></li>
-                                        <li><a href="">- Financial Services</a></li>
-                                        <li><a href="">- Information Systems Services</a></li>
-                                        <li><a href="">- Marketing Services</a></li>
-                                        <li><a href="">- Personnel Services</a></li>
-                                        <li><a href="">- Facilities</a></li>
+                                        <li><a href="" class="scroll-to">- News</a></li>
+                                        <li><a href="" class="scroll-to">- Academic Registry</a></li>
+                                        <li><a href="" class="scroll-to">- Catering Services</a></li>
+                                        <li><a href="" class="scroll-to">- Financial Services</a></li>
+                                        <li><a href="" class="scroll-to">- Information Systems Services</a></li>
+                                        <li><a href="" class="scroll-to">- Marketing Services</a></li>
+                                        <li><a href="" class="scroll-to">- Personnel Services</a></li>
+                                        <li><a href="" class="scroll-to">- Facilities</a></li>
                                     </ul>
                             </div>
                         </menu>
@@ -65,7 +65,7 @@
                             <li>All staff pay and conditions enquiries should be directed to the Personnel Services team on the 3rd floor.</li>
                         </ul>
                         <h2>Facilities</h2>
-                        <ul>
+                        <ul class="border-bottom">
                             <li>The facilities are responsible for the general care and maintenance of the College. All enquiries via the main helpdesk.</li>
                         </ul>
                     </div>

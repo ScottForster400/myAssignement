@@ -5,6 +5,7 @@
     <?php
         include("includes/head-inc.php")
     ?>
+
 </head>
 <body>
     <div class="container">
@@ -16,13 +17,13 @@
                 <div class="sidebar">
                     <nav> 
                         <menu>
-                            <a href="">About Us</a>
-                            <a href="">How to Find Us</a>
+                            <p class="scroll-to">About Us</p>
+                            <p class="scroll-to">How to Find Us</p>
                         </menu>
                     </nav>
                 </div>
                 <div class="info">
-                    <h1>
+                    <h1 id="About Us">
                         About Us
                     </h1>
                     <p>
@@ -35,7 +36,7 @@
                         Whatever your ambitions, our learning and support can help to get the most out of your time with Cantor College, 
                         both as a student and in your future career.
                     </p>
-                    <h1>
+                    <h1 id="How to Find Us">
                         How to Find Us
                     </h1>
                     <div class="adress">
@@ -45,7 +46,7 @@
                         <p>SC4 2BB</p>
                         <p>Tel:(01321) 2340 235</p>
                         <p>Fax: (01321) 2340 236</p>
-                        <P>Email: info@cantorcollege.ac.uk</p>
+                        <P class="border-bottom">Email: info@cantorcollege.ac.uk</p>
                     </div>
                     <h2 >Suggested Pages</h2>
                     <div class="link-images">

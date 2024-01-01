@@ -52,6 +52,8 @@ section{
     padding: 5px;
     font-size: 12px;
 }
+
+ 
 .info{
     font-size: 16px;
     display: flex;
@@ -62,12 +64,7 @@ section{
 .info ul{
     text-align: left;
 }
-.course{
-    padding: 20px;
-    text-align: left;
-    border-bottom:1px grey solid;
-    padding-left: 0px;
-}
+
 .course-info{
     display: flex;
     flex-direction: row;
@@ -76,6 +73,11 @@ section{
     display: flex;
     flex: 33%;
     font-size: 14px;
+}
+.course-info-section{
+    display: flex;
+    flex-direction: column;
+    flex: 50%;
 }
 .text-left{
     text-align: left;

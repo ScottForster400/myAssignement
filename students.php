@@ -17,14 +17,14 @@
                     <nav> 
                         <menu>
                             <div class="reference-in-section">
-                                <a href="">Student Information</a>
+                                <a href="" class="scroll-to">Student Information</a>
                                 <ul>
-                                    <li><a href="">- Academic Information</a></li>
-                                    <li><a href="">- Administrative Support</a></li>
-                                    <li><a href="">- Student Services</a></li>
-                                    <li><a href="">- University Services</a></li>
-                                    <li><a href="">- Life at University</a></li>
-                                    <li><a href="">- Communications</a></li>
+                                    <li><a href="" class="scroll-to">- Academic Information</a></li>
+                                    <li><a href="" class="scroll-to">- Administrative Support</a></li>
+                                    <li><a href="" class="scroll-to">- Student Services</a></li>
+                                    <li><a href="" class="scroll-to">- University Services</a></li>
+                                    <li><a href="" class="scroll-to">- Life at University</a></li>
+                                    <li><a href="" class="scroll-to">- Communications</a></li>
                                 </ul>
                             </div>
                             <a href="">Learning Resources</a>
@@ -79,7 +79,7 @@
                         </ul>
                     </div>
                     <h1>Learning Resources</h1>
-                    <a href="downloads\learning-resources.pdf" download>Learning Resources download</a>
+                    <a href="downloads\learning-resources.pdf" download class="border-bottom">Learning Resources download</a>
                     <h2>Suggested Pages</h2>
                     <div class="link-images">
                             <div class="link-image">

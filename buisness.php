@@ -16,12 +16,12 @@
                 <div class="sidebar">
                     <nav> 
                         <menu>
-                            <a href="">Working With Buisnesses</a>
+                            <a href="" class="scroll-to">Working With Buisnesses</a>
                         </menu>
                     </nav>
                 </div>
                 <div class="info">
-                    <h1>
+                    <h1 id="Working With Buisnesses">
                         Working with Buisnesses
                     </h1>
                     <p>
@@ -34,7 +34,7 @@
                     aspects of XSL and Dynamic HTML. Our technology takes the best aspects of ActionScript and Python.
                     </p>
 
-                    <p>
+                    <p class="border-bottom">
                     <b>We here at Cantor College think we know that it is better to architect proactively than to drive dynamically.</b> 
                     The re-sizing factor can be summed up in one word: client-focused. The architectures factor is enterprise. 
                     We will optimize the jargon-based commonly-accepted term "world-class". The metrics for R&D are more well-understood 

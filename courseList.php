@@ -2,12 +2,13 @@
 require_once("includes\dbconfing-inc.php");
 $courseResults = $mysqli->query("SELECT * FROM course_list");
 //used https://owlcation.com/stem/Simple-search-PHP-MySQL and webdev-php-part2-mysql.pdf to help create search function
-$query =$_GET["search-querey"];
-                        $searchQuery="%".$query."%";
-                        $stmnt=$mysqli->prepare("SELECT * FROM course_list WHERE CourseTitle LIKE ?");
-                        $stmnt->bind_param("s",$searchQuery);
-                        $stmnt->execute();
-                        $results=$stmnt->get_result();
+$query =$_GET["search-querey"]?? null;
+$searchQuery="%".$query."%";
+$stmnt=$mysqli->prepare("SELECT * FROM course_list WHERE CourseTitle LIKE ?");
+$stmnt->bind_param("s",$searchQuery);
+$stmnt->execute();
+$results=$stmnt->get_result();
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -27,11 +28,13 @@ $query =$_GET["search-querey"];
                 <div class="sidebar">
                     <nav> 
                         <menu>
-                            <form action="courseList.php" method="GET">
-                            <label for="search">Search:</label>
-                            <input type="text" name="search-querey" />
-                            <input type="submit" value="search"/>
-                            </form>
+                        <?php
+                        if($results->num_rows>0){
+                            while($course = $results -> fetch_object()){
+                                echo"<a href=\"\" class=\"scroll-to\"> {$course->CourseTitle}</a>";
+                            }
+                        }
+                        ?>
                         </menu>
                         
                     </nav>
@@ -40,11 +43,24 @@ $query =$_GET["search-querey"];
                     <h1>
                         Course List
                     </h1>
+                  
+                        <form action="courseList.php" method="GET">
+                            <label for="search">Search:</label>
+                            <?php
+                            echo "<input type=\"text\" name=\"search-querey\" value=\"$query\"/>";
+                            ?>
+                            <div class="centre">
+                            <input type="submit" value="search"/>
+                            </div>
+                        </form>
+                    
                     <?php
+                        $stmnt->execute();
+                        $results=$stmnt->get_result();
                         if($results->num_rows>0){
                             while($course = $results -> fetch_object()){
-                                echo"<div class =\"course\">";
-                                echo"<h2>{$course->CourseTitle} ( {$course->CourseAwardName} )</h2>";
+                                echo"<div class =\"course\" id=\"{$course->CourseTitle}\">";
+                                echo"<a href=\"courseDetails.php?courseID={$course->courseID}\">{$course->CourseTitle} {$course->CourseAwardName}</a>";
                                 echo"<div class=\"course-info\">";
                                 echo"<p>Course Type: {$course->CourseType}</p>";
                                 echo"<p>UCAS Points: {$course->UcasPoints}</p>";
