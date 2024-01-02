@@ -19,6 +19,7 @@
                         <menu>
                             <p class="scroll-to">About Us</p>
                             <p class="scroll-to">How to Find Us</p>
+                            <a href="contactUs.php">Contact Us</a>
                         </menu>
                     </nav>
                 </div>
@@ -46,7 +47,10 @@
                         <p>SC4 2BB</p>
                         <p>Tel:(01321) 2340 235</p>
                         <p>Fax: (01321) 2340 236</p>
-                        <P class="border-bottom">Email: info@cantorcollege.ac.uk</p>
+                        <P>Email: info@cantorcollege.ac.uk</p>
+                    </div>
+                    <div class="centre">
+                        <a href="contactUs.php"><button>Contact Us</button></a>
                     </div>
                     <h2 >Suggested Pages</h2>
                     <div class="link-images">

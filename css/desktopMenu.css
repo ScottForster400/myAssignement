@@ -28,7 +28,7 @@ section{
 .right-side-main{
     padding: 0px;
     display: flex;
-    flex:25%;
+    flex:10%;
     flex-direction: column;
     background-color: #DED8CD;
     border-left: 2px solid black;
@@ -40,12 +40,14 @@ section{
     flex: 50%;
 }
 #image-scroller{
-    flex: 50%;
     border-bottom: 2px solid black;
     display: flex;
     align-items: center;
     justify-content: center;
-    flex:0 1 0
+    flex-direction: column;
+    flex:0 1 0;
+    min-height: 50%;
+    max-height: 50%;
 }
 .image-scroller-container{
     max-width: 75%;
@@ -59,17 +61,18 @@ section{
     border-radius: 10%;
 }
 #map{
-    flex:50%;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     min-width: 100%;
-    flex: 1 0 0
+    flex: 1 0 0;
 }
 iframe{
     height: 75%;
     border: 3px black solid;
     max-height: 259px;
-    
+    max-width: 80%;
+    border-radius: 10%;
 }
 

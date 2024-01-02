@@ -17,13 +17,13 @@
                     <nav> 
                         <menu>
                             <p class="scroll-to">Computing Courses</p>
-                            <p class="scroll-to">Design Course</p>
+                            <p class="scroll-to">Design Courses</p>
                             <a href="courseList.php">Course List</a>
                         </menu>
                     </nav>
                 </div>
                 <div class="info">
-                    <h1>
+                    <h1 id="Computing Courses">
                         Computing Courses
                     </h1>
                     <p>
@@ -42,7 +42,7 @@
                     to prepare students for professional occupations in Computing and related fields. Many graduates continue their 
                     studies to pursue a higher degree such as an MSc. or PhD.
                     </p>
-                    <h1>
+                    <h1 id ="Design Courses">
                         Design Courses
                     </h1>
                     <p>

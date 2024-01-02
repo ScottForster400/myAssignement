@@ -157,4 +157,7 @@ input[type=submit]{
     border-bottom:1px solid grey ;
     padding-bottom: 55px;
 }
+.no-bottom-padding{
+    padding-bottom: 0px;
+}
 

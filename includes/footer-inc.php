@@ -4,7 +4,7 @@
             <img src="images/logo-no-back.png" alt="logo">
         </div>
         <div  id="footer-location">
-            <p>How to find uss:</p>
+            <p>How to find us:</p>
             <p>Cantor College</p>
             <p>Main Street</p>
             <p>Sheffield</p>
@@ -19,10 +19,10 @@
             <h3>Studying and courses</h3>
             <nav>
                 <menu>
-                    <a href="">Computing Courses</a>
-                    <a href="">Design Courses</a>
-                    <a href="">Facilities</a>
-                    <a href="">Learning Resources</a>
+                    <a href="courses.php">Computing Courses</a>
+                    <a href="courses.php">Design Courses</a>
+                    <a href="facilities.php">Facilities</a>
+                    <a href="students.php">Learning Resources</a>
                 </menu>
             </nav>
         </div>
@@ -30,9 +30,9 @@
             <h3>About</h3>
             <nav>
                 <menu>
-                    <a href="">About Us</a>
-                    <a href="">How To Find US</a>
-                    <a href="">Contact Us</a>
+                    <a href="aboutUs.php">About Us</a>
+                    <a href="aboutUs.php">How To Find US</a>
+                    <a href="contactUs.php">Contact Us</a>
                 </menu>
             </nav>
         </div>
@@ -40,9 +40,9 @@
             <h3>Info</h3>
             <nav>
                 <menu>
-                    <a href="">Info For Students</a>
-                    <a href="">Info For Teachers</a>
-                    <a href="">Working With Business</a>
+                    <a href="students.php">Info For Students</a>
+                    <a href="staff.php">Info For Teachers</a>
+                    <a href="staff.php">Working With Buisness</a>
                 </menu>
             </nav>
         </div>

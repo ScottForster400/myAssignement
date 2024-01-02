@@ -50,7 +50,7 @@ $results=$stmnt->get_result();
                             echo "<input type=\"text\" name=\"search-querey\" value=\"$query\"/>";
                             ?>
                             <div class="centre">
-                            <input type="submit" value="search"/>
+                                <input type="submit" value="search"/>
                             </div>
                         </form>
                     

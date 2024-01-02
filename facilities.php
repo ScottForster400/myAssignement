@@ -16,14 +16,14 @@
                 <div class="sidebar">
                     <nav> 
                         <menu>
-                            <a href="" class="scroll-to">Facilities</a>
-                            <a href="" class="scroll-to">Facilities List</a>
+                            <p class="scroll-to">Facilities</p>
+                            <p class="scroll-to">Facilities List</p>
                         </menu>
                     </nav>
                 </div>
                 <div class="info">
                     
-                    <h1>Facilities</h1>
+                    <h1 id="Facilities">Facilities</h1>
                     <p>
                     The College is located in the attractive and pleasantly refurbished Building. The building houses computing 
                     laboratories, and lecture/tutorial rooms. It has its own catering facilities and student work areas. 
@@ -33,7 +33,7 @@
                     Our building has space of 9500m², houses over 240 staff and provides teaching space for more than 1600 students.
                     </p>
 
-                    <h1>Facilities List</h1>
+                    <h1 id="Facilities List">Facilities List</h1>
                     <ul class="border-bottom">
                         <li> wi-fi technology</li>
                         <li>pool teaching rooms, including classrooms to teach from 25 - 80 students</li>
