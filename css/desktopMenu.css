@@ -55,6 +55,8 @@ section{
     height: 100%;
     width: 100%;
     max-width: 404px;
+    max-height: 191px;
+    border-radius: 10%;
 }
 #map{
     flex:50%;

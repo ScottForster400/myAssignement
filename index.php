@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/mobileFooter.css">
     <link rel="stylesheet" href="css/desktopMenu.css" media="only screen and (min-width : 720px)">
     <link rel="stylesheet" href="css/desktopFooter.css" media="only screen and (min-width : 720px)">
+    <script src="javaScript\indexScript.js" defer></script>
 </head>
 <body>
     <div class="container">
@@ -33,17 +34,17 @@
                     <h2 class="underline">Suggested Pages</h2>
                     <div class="link-images">
                         <div class="link-image">
-                            <a href="google.com"><img src="images/cantor-gallery.jpg" alt="courses"></a>
+                            <a href="google.com"><img src="images/cantor-gallery.webp" alt="courses"></a>
                             <p>Courses</p>
                         </div>
                         
                         
                         <div class="link-image">
-                            <a href="google.com"><img src="images/cantor-atrium-3.jpg" alt="courses"></a>
+                            <a href="google.com"><img src="images/cantor-atrium-3.webp" alt="courses"></a>
                             <p>Courses</p>
                         </div>
                         <div class="link-image">
-                            <a href="google.com"><img src="images/cantor-gallery.jpg" alt="courses"></a>
+                            <a href="google.com"><img src="images/cantor-gallery.webp" alt="courses"></a>
                             <p>Courses</p>
                         </div>
                     </div>
@@ -51,7 +52,7 @@
                 <div class="right-side-main">
                     <div id="image-scroller">
                         <div class="image-scroller-container">
-                        <img id="slider-img-1" src="images/cantor-4.jpg" alt="cantor-seating">
+                        <img id="slider-img" src="images/cantor-4.webp" alt="cantor-seating">
                         </div>
 
                         <a class="previous"></a>
