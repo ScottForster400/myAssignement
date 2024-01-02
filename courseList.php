@@ -31,7 +31,7 @@ $results=$stmnt->get_result();
                         <?php
                         if($results->num_rows>0){
                             while($course = $results -> fetch_object()){
-                                echo"<a href=\"\" class=\"scroll-to\"> {$course->CourseTitle}</a>";
+                                echo"<p class=\"scroll-to\"> {$course->CourseTitle}</p>";
                             }
                         }
                         ?>

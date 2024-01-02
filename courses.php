@@ -16,8 +16,8 @@
                 <div class="sidebar">
                     <nav> 
                         <menu>
-                            <a href="" class="scroll-to">Computing Courses</a>
-                            <a href="" class="scroll-to">Design Course</a>
+                            <p class="scroll-to">Computing Courses</p>
+                            <p class="scroll-to">Design Course</p>
                             <a href="courseList.php">Course List</a>
                         </menu>
                     </nav>

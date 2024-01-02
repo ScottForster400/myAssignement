@@ -16,7 +16,7 @@
                 <div class="sidebar">
                     <nav> 
                         <menu>
-                            <a href="" class="scroll-to">Working With Buisnesses</a>
+                            <p class="scroll-to">Working With Buisnesses</p>
                         </menu>
                     </nav>
                 </div>
