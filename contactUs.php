@@ -29,11 +29,11 @@
                         <div id=contact-frm>
                             <div class="form-items">
                                 <label for="fullName">Name:</label>
-                                <input type="text" name="fullName" required>
+                                <input type="text" name="fullName" id="fullName"required>
                                 <label for="phone">Phone Number:</label>
-                                <input type="tel" name="phone">
+                                <input type="tel" name="phone" id="phone">
                                 <label for="email">Email:</label>
-                                <input type="email" name="email" required>
+                                <input type="email" name="email" id="email"required>
                             </div>
                             <div class="form-items">
                                 <label for="msgBox">Message:</label>
