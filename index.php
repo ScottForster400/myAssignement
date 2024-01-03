@@ -21,7 +21,7 @@
             <section>
                 <div class="left-side-main">
                     <h1>Welcome To Cantor</h1>
-                    <h2>Giving Studetns the education they need since 1989</h2>
+                    <h2>Giving Students the education they need since 1989</h2>
                 
                     <p>Cantor College was established in 1989 to specialize in Computing and Design.   At Cantor College, we want to give students
                      the education they need to achieve their career aims, leaving them equipped with the knowledge, 
@@ -58,7 +58,7 @@
                     </div>
                     <div id="map"><!--  used this to help work out how to add map https://blog.hubspot.com/website/how-to-embed-google-map-in-html#:~:text=Embedding%20a%20static%20Google%20map,the%20code%20into%20your%20HTML.*/ -->
                     <h3>How to Find Us</h3>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2380.120423524792!2d-1.4703501234427925!3d53.376894772298165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48798338bc5a1d13%3A0xad74824d1242efa8!2sCantor%20College!5e0!3m2!1sen!2sie!4v1703096922625!5m2!1sen!2sie"></iframe>
+                    <iframe label ="cantor college location" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2380.120423524792!2d-1.4703501234427925!3d53.376894772298165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48798338bc5a1d13%3A0xad74824d1242efa8!2sCantor%20College!5e0!3m2!1sen!2sie!4v1703096922625!5m2!1sen!2sie"></iframe>
                     </div>
                 </div>
                 
