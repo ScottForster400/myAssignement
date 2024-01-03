@@ -44,7 +44,7 @@
                             <p>Students</p>
                         </div>
                         <div class="link-image">
-                            <a href="contactUs.php"><img src="images/cantor-atrium-4.webp" alt="contact us"></a>
+                            <a href="contactUs.php"><img src="images/cantor-atrium-4.webp" alt="Contact Us"></a>
                             <p>Contact Us</p>
                         </div>
                     </div>
