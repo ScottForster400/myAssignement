@@ -28,7 +28,6 @@
                     </nav>
                 </div>
                 <div class="info">
-                    
                     <h1 id="Student Information">Student Information</h1>
                     <div class="text-left">
                         <h2 id="Academic Information">Academic Information</h2>
@@ -79,14 +78,13 @@
                     <h2>Suggested Pages</h2>
                     <div class="link-images">
                             <div class="link-image">
-                                <a href="google.com"><img src="images/cantor-gallery.webp" alt="courses"></a>
-                                <p>Contact Us</p>
+                                <a href="courses.php"><img src="images/cantor-gallery.webp" alt="courses"></a>
+                                <p>Courses</p>
                             </div>
                             
-                            
                             <div class="link-image">
-                                <a href="google.com"><img src="images/cantor-lecture-theatre-3.webp" alt="courses"></a>
-                                <p>Facilities</p>
+                                <a href="contactUs.php"><img src="images/cantor-atrium-top.webp" alt="contact us"></a>
+                                <p>contact Us</p>
                             </div>
                     </div>
                 </div>

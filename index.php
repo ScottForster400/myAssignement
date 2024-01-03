@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Cantor College||Menu</title>
+    <title>Cantor College||Home</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/mobileMenu.css">
@@ -34,18 +34,18 @@
                     <h2 class="underline">Suggested Pages</h2>
                     <div class="link-images">
                         <div class="link-image">
-                            <a href="google.com"><img src="images/cantor-gallery.webp" alt="courses"></a>
+                            <a href="courses.php"><img src="images/cantor-gallery.webp" alt="courses"></a>
                             <p>Courses</p>
                         </div>
                         
                         
                         <div class="link-image">
-                            <a href="google.com"><img src="images/cantor-atrium-3.webp" alt="courses"></a>
-                            <p>Courses</p>
+                            <a href="students.php"><img src="images/cantor-atrium-top.webp" alt="students"></a>
+                            <p>Students</p>
                         </div>
                         <div class="link-image">
-                            <a href="google.com"><img src="images/cantor-gallery.webp" alt="courses"></a>
-                            <p>Courses</p>
+                            <a href="contactUs.php"><img src="images/cantor-atrium-4.webp" alt="contact us"></a>
+                            <p>Contact Us</p>
                         </div>
                     </div>
                 </div>

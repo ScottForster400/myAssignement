@@ -65,16 +65,15 @@
                     </div>
                     <h2 >Suggested Pages</h2>
                     <div class="link-images">
-                            <div class="link-image">
-                                <a href="google.com"><img src="images/cantor-gallery.webp" alt="courses"></a>
-                                <p>Contact Us</p>
-                            </div>
-                            
-                            
-                            <div class="link-image">
-                                <a href="google.com"><img src="images/cantor-lecture-theatre-3.webp" alt="courses"></a>
-                                <p>Facilities</p>
-                            </div>
+                        <div class="link-image">
+                            <a href="facilities.php"><img src="images/cantor-lecture-theatre-3.webp" alt="Facilities"></a>
+                            <p>Facilities</p>
+                        </div>
+                             
+                        <div class="link-image">
+                            <a href="contactUs.php"><img src="images/cantor-atrium-top.webp" alt="contact us"></a>
+                            <p>contact Us</p>
+                        </div>
                     </div>
                 </div>
             </section>

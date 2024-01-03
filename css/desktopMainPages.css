@@ -59,9 +59,6 @@ section{
     content: '- ';
 
 }
-
-
- 
 .info{
     font-size: 16px;
     display: flex;
@@ -104,26 +101,10 @@ button:hover{
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 600px 20px 0 rgba(0,0,0,0.19);
 }
 #contact-frm{
-    display: flex;
     flex-direction: row;
 }
 .form-items{
-    display: flex;
     flex-direction: column;
     flex:50%;
-    padding: 10px;
 }
-.form-items input{
-    padding: 15px;
-    border-radius: 15px;
-    margin: 0px;
-}
-#msgBox{
-    padding: 0px;
-    min-height: 193px;
-    border-radius: 12px;
-    border: 2px solid black;
-}
-.dark-back {
-    background-color: #DED8CD;
-}
+

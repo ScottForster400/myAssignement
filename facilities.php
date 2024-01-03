@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Cantor College||Students</title>
+    <title>Cantor College||Facilities</title>
     <?php
         include("includes/head-inc.php")
     ?>
@@ -53,14 +53,13 @@
                     <h2 >Suggested Pages</h2>
                     <div class="link-images">
                             <div class="link-image">
-                                <a href="google.com"><img src="images/cantor-gallery.webp" alt="courses"></a>
-                                <p>Contact Us</p>
+                                <a href="students.php"><img src="images/cantor-outside.webp" alt="students"></a>
+                                <p>Courses</p>
                             </div>
                             
-                            
                             <div class="link-image">
-                                <a href="google.com"><img src="images/cantor-lecture-theatre-3.webp" alt="courses"></a>
-                                <p>Facilities</p>
+                                <a href="aboutUs.php"><img src="images/beehiveworks.webp" alt="About Us"></a>
+                                <p>About Us</p>
                             </div>
                     </div>
                 </div>
