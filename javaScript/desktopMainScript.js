@@ -5,7 +5,7 @@
     for(var i=0; i<sidebarSelcetion.length;i++){
         sidebarSelcetion[i].addEventListener('click',pageScroll);
     }
-    document.getElementById("search").addEventListener(oninput,refresh);
+    
 }
 )();
 function pageScroll(ev){
@@ -21,11 +21,4 @@ function pageScroll(ev){
         top:offset,
         behavior:"smooth",
     })
-
-}
-function refresh(){
-    let courses=document.getElementById("refresh");
-    let content =courses.innerHTML;
-    courses.innerHTML=content;
-    console.dir("refershed");
 }
