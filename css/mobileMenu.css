@@ -1,4 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
 body{
     font-family: 'Roboto Condensed', sans-serif;
     margin: 0;
@@ -42,6 +50,11 @@ section h1, section h2, section p  {
 }
 .right-side-main{
     display: none;
+}
+.left-side-main{
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
 
 

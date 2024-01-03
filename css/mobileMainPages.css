@@ -1,4 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+/* USed https://www.geeksforgeeks.org/how-to-create-fade-in-effect-on-page-load-using-css/ to find how to do fade in animation  */
+@keyframes fadeInAnimation { 
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
 body{
     font-family: 'Roboto Condensed', sans-serif;
     margin: auto;
@@ -28,7 +37,9 @@ main{
  
     line-height: 1.5;
     border-bottom: 1px solid grey;
-
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
 .adress p{
     margin: 5px;
